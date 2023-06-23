@@ -1,11 +1,10 @@
 ## PDS - Github Pages
 
-Note: This is still a WIP. If you're looking for a more complete representation of my ability, check out GoGetItDone [here](https://sebaraj.com/GoGetItDone).
+This was my final project for CPSC 426 - Building Distributed Systems at Yale. I'm currently adding more features to make this in-memory K/V store, which can act as a cache, to be as similar to [Memcached](https://en.wikipedia.org/wiki/Memcached) as possible.
 
-An eBay clone, built with Go and React. While the frontend can be found [here](https://github.com/PSebaRaj/pBay-Frontend), I'm currently focusing on completing the backend, or at least getting most of the functionality built, before shifting my focus to the frontend.
-
-Goal is to implement microservices, rather than the monolithic approach that was taken for my other projects (TradingPlatform, GoGetItDone, etc.), as well as implement RPCs (gRPC) for converting currencies, checking if user is chat banned, etc.
+After completition of more features, I plan to replace Redis, which I utilize as a in-memory cache, in [GoGetItDone](https://sebaraj.com/GoGetItDone/). Furthermore, after I complete CPSC 437 - Database Systems in the Fall 2023 semester, I plan to make an object relational mapper (ORM) to replace gORM in in [GoGetItDone](https://sebaraj.com/GoGetItDone/). Thus, GoGetItDone will function with only my own libraries, Gorilla Mux (for networking), and PostgreSQL.
 
 ### Languages and Technologies
-
+- Go
+- gRPC
 
